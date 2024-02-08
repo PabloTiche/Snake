@@ -1,0 +1,61 @@
+* {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #f35a69;
+    border: none;
+    color: whitesmoke;
+}
+
+#scoreBoard, #maxScore {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: #04A1BF;
+}
+
+/* The snake is an Yellow-lipped sea krait */
+.snakeSquare { 
+    background-color: #2c2c2b;
+}
+
+.foodSquare1 {
+    background-color: #f35a69;
+}
+
+.foodSquare2 {
+    background-color: #E3E4E5;
+}
+
+.foodSquare3 {
+    background-color: rgb(224, 224, 70);
+}
